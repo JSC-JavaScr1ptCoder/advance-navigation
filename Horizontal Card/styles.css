@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+.tabs2 {
+  max-width: 900px;
+  margin: 50px auto 0;
+}
+
+.card-1 {
+  float: left;
+  padding: 0 1.7rem;
+  width: 80%;
+}
+
+.menu-content {
+  @include cf;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.wrapper1 {
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 19px 38px rgba(black, 0.3), 0 15px 12px rgba(black, 0.2);
+}
+
+.data1 {
+  float: right;
+  width: 60%;
+  height: 100%;
+}
+
+.title1 {
+  margin-top: 10px;
+}
+
+.text1 {
+  height: 70px;
+  margin: 0;
+}
+
+input[type='checkbox'] {
+  display: none;
+}
+
+input[type='checkbox']:checked+.menu-content {
+  transform: translateY(-60px);
+}
+
+.content1 {
+  background-color: white;
+  box-shadow: 0 5px 30px 10px rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.image1 {
+  float: left;
+  width: 40%;
+}
+
+.book-image {
+  width: 100%;
+  display: block;
+  height: 30%;
+  margin-top: auto;
+  margin-bottom: auto;
+}

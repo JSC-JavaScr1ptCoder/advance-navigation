@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mobile Form</title>
+  <link href="/Mobile Form Exercise/css/styles.css" rel="stylesheet" type="text/css" />
+  <link href="/Mobile Form Exercise/css/default.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <nav class="navbar nav">
+    <div class="small-container">
+      <span class="square">&#x25A0;</span>
+      <span class="circle">&#x25CF;</span>
+      <span class="triangle">&#x25BC;</span>
+    </div>
+    <div class="container">
+      <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+        <span>&#9776;</span>
+      </button>
+      <a class="navbar-brand" href="index.html">Contacts</a>
+      <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+        <span>&#x1F50D;</span>
+      </button>
+      <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+        <span>&#8942;</span>
+      </button>
+    </div>
+  </nav>
+
+  <form autocomplete="on" action="/action_page.php" target="_self" class="mobile">
+
+    <div class="name">
+      <label for="name">&#128100;</label>
+      <input class="dark" id="name" name="name" type="text" placeholder="Name" required>
+    </div>
+    <br>
+    <div class="phone">
+      <label for="phone">&#128222;</label>
+      <input id="phone" type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone Number"
+        required>
+
+      <select class="select-label">
+        <option>Label</option>
+        <option>Blank</option>
+        <option>Blank</option>
+        <option>Blank</option>
+        <option>Blank</option>
+      </select>
+    </div>
+
+    <br>
+
+    <div class="location">
+      <label for="location">&#128681;</label>
+      <input id="location address" class="dark" name="address" type="text" pattern="[A-Za-z0-9]" placeholder="Address"
+        required>
+    </div>
+
+    <br>
+
+    <div class="city">
+      <label for="location" class="hidden">&#128681;</label>
+      <input id="location city" name="city" type="text" pattern="[0-9]{5}-[A-Za-z]{50}" placeholder="City" required>
+    </div>
+
+    <br>
+
+    <div class="state">
+      <label for="location" class="hidden">&#128681;</label>
+
+      <select class="loc-add-state" id="location address state">
+        <option value="-1">State</option>
+        <option value="TEX">Texas</option>
+        <option value="NYC">New York</option>
+        <option value="WAS">Washington DC</option>
+        <option value="FLO">Florida</option>
+      </select>
+
+      <label class="select-label-2" for="zip">
+        <input class="loc-add-zip" id="location address zip" pattern="[0-9]{5}" placeholder="Zip" name="zip"
+          type="number" required>
+
+    </div>
+
+    <br>
+
+
+    <br>
+    <div class="email">
+      <label for="email">&#9993;</label>
+      <input id="email" type="email" name="email" placeholder="Email" required>
+    </div>
+
+    <br>
+
+    <div class="birthday">
+      <label for="birthday">&#127874;</label>
+      <input type="date" id="birthday" name="birthday" class="dark" required>
+    </div>
+
+    <br>
+
+    <input type="submit" value="Submit" class="btn btn-white">
+
+
+  </form>
+</body>
+
+</html>

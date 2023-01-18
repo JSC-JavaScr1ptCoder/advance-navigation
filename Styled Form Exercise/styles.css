@@ -1,0 +1,88 @@
+body {
+  background-image: url(download\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+}
+
+span {
+  font-size: 14px;
+}
+
+h1 {
+  margin: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+p {
+  margin: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+form {
+  background-color: rgba(11, 0, 36, 0.6);
+  max-width: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+div {
+  max-width: 800px;
+  padding: 40px;
+}
+
+label,
+input {
+  display: inline-block;
+
+}
+
+label {
+  padding: 20px 0px 10px 0px;
+}
+
+#improved1,
+#improved2,
+#improved3,
+#improved4,
+#improved5,
+#improved6,
+#recommend1,
+#recommend2,
+#recommend3 {
+  padding: 0px;
+  width: auto;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  text-indent: 10px;
+}
+
+select {
+  text-indent: 6px;
+  padding: 6px;
+  width: 533px;
+}
+
+button {
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+  width: 533px;
+  height: 30px;
+}
+
+textarea {
+  margin: 20px 0px;
+  width: 525px;
+}

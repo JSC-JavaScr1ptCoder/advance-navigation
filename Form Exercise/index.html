@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+</head>
+
+<body>
+  <form action="/action_page.php">
+    <h1><strong>Registration Form</strong></h1>
+    <br>
+    <hr>
+    <br>
+    <h2><strong>Provide your information</strong></h2>
+    <br>
+    <label for="name">Name*</label><br>
+    <input type="text" id="name" name="name" placeholder="Name" required>
+    <br>
+    <label for="email">Email*</label><br>
+    <input type="email" id="email" name="email" placeholder="email" required>
+    <br>
+    <label for="telephone1">Telephone</label><br>
+    <input type="tel" id="telephone1" name="number" placeholder="555" pattern="[0-9]{3}">
+    <label for="telephone2">-</label>
+    <input type="tel" id="telephone2" name="number" placeholder="555" pattern="[0-9]{3}">
+    <label for="telephone3">-</label>
+    <input type="tel" id="telephone3" name="number" placeholder="5555" pattern="[0-9]{4}">
+    <br>
+    <br>
+    <br>
+    <label for="date-of-birth">DOB*</label><br>
+    <input type="date" id="date-of-birth" name="birthday" placeholder="mm/dd/yyyy" required>
+    <br>
+    <label for="gender" required>Gender<br>
+      <input type="radio" name="gender" value="male" id="gender1"> Male
+      <input type="radio" name="gender" value="female" id="gender2"> Female
+      <input type="radio" name="gender" value="other" id="gender3"> Other
+    </label>
+    <br>
+    <br>
+    <label for="household">Household Size</label><br>
+    <input type="text" id="household" name="household">
+    <br>
+    <label for="income">Annual Income</label><br>
+    <select id="income">
+      <option value="<40k">Less than $40K</option>
+      <option value="~40k">Around $40K</option>
+      <option value=">40k">More than $40K</option>
+    </select>
+    <br>
+    <br><br>
+    <label for="message">Message</label><br>
+    <input type="text" placeholder="add message here..."><br>
+    <textarea name="message" id="message" cols="30" rows="4" placeholder="add message here..."></textarea>
+    <br>
+    <br>
+    <br>
+    <label for="password">Password*</label><br>
+    <input type="password" placeholder="password" pattern="[A-Za-z]{10}" required>
+    <br>
+    <label for="confirm">Confirm Password*</label><br>
+    <input type="password" placeholder="confirm password" pattern="[A-Za-z]{10}" required>
+    <br>
+    <br>
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">By signing up, you agree to the <a href="#">Terms of Service</a></label>
+    <br>
+    <br><br>
+    <input type="submit" value="Submit">
+
+  </form>
+</body>
+
+</html>

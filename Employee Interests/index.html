@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Employee Interests Survey Form</h1>
+  <form>
+    <label for="name" required>Name:</label>
+    <input id="name" type="text" placeholder="Enter your name">
+    <br>
+    <label for="department" required>Department:</label>
+    <input id="department" type="text" placeholder="Enter your department">
+    <br>
+    <label for="textbox">Tell us a little about yourself:</label><br><br>
+    <textarea id="textbox" type="text" cols="30" rows="5"></textarea>
+    <br>
+    <label for="exercise">Do you exercise at home?</label>
+    <input id="exercise1" type="radio" name="exercise" value="Yes"> Yes
+    <input id="exercise2" type="radio" name="exercise" value="No"> No
+    <br>
+    <br>
+    <label for="topics">How do you like to read about your favorite topics?</label>
+    <br><br>
+    <input id="topics1" type="checkbox" name="topics" value="Phone Apps"> Phone Apps
+    <input id="topics2" type="checkbox" name="topics" value="Online"> Online
+    <input id="topics3" type="checkbox" name="topics" value="Books"> Books
+    <input id="topics4" type="checkbox" name="topics" value="Magazines"> Magazines
+    <input id="topics5" type="checkbox" name="topics" value="Newspaper"> Newspaper
+
+    <br>
+    <br>
+    <label for="select">What is your favorite movie genre?</label>
+    <select id="select">
+      <option>Choose...</option>
+      <option>Sci-Fic</option>
+      <option>Action</option>
+      <option>Thriller</option>
+      <option>Cooking</option>
+      <option>Documentation</option>
+    </select>
+    <br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+
+</html>

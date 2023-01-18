@@ -1,0 +1,145 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.section-1,
+.section-2 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.section-1 {
+  flex: 1;
+}
+
+.section-2 {
+  float: right;
+}
+
+.fa-bars {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.profile {
+  padding-left: 10px;
+  padding-right: 20px;
+  border-radius: 100%;
+}
+
+.searchbox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.searchbox {
+  display: flex;
+  align-items: center;
+  border-radius: 25px;
+  width: 600px;
+  height: 45px;
+  border: 1px solid rgb(226, 226, 226);
+  box-shadow: 0px 5px 5px 0px #dbdbdb;
+  background-color: white;
+  padding-left: 25px;
+}
+
+.fa-magnifying-glass {
+  flex: 1;
+}
+
+.google-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 300px;
+}
+
+input {
+  height: 40px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+  flex: 80%;
+  border: none;
+}
+
+#voicesearchbutton {
+  flex: 1;
+  border: none;
+  padding-left: 10px;
+  margin: 0px;
+  font-size: 16px;
+  color: rgb(0, 81, 255);
+}
+
+.buttons {
+  margin: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.go-search {
+  border-radius: 2px;
+  border: none;
+  background-color: none;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: rgb(219, 219, 219);
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+}
+
+
+.float-1 {
+  flex: 1;
+
+}
+
+.float-2 {
+  float: right;
+}
+
+div>a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+div>a:first-child,
+div>a:first-child {
+  padding: 20px;
+}
